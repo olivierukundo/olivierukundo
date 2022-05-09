@@ -1,0 +1,658 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.wrapper{
+  background: url(new.jpg) no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.navbar{
+  height: 88px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+  width: 80px;
+  height: auto;
+  padding: 5px 20px;
+}
+
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.navbar ul li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-family: Roboto, sans-serif;
+}
+
+ .navbar ul li a.active,
+ .navbar ul li a:hover{
+   background: rgb(162, 16, 16);
+   border-radius: 5px;
+ }
+
+ p{
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 40px;
+   
+ }
+
+ .name{
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+ .date{
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ @media only screen and (max-width:600px){
+.wrapper{
+  display: flex;
+}
+  .navbar{
+  position: fixed;
+  top: 0;
+  float: left;
+  width: 100%;
+  display: grid;
+  background: black;
+}
+.logo{
+  display: none;
+  height: 15%;
+  float: left;
+position: fixed;
+}
+
+#HOME{
+  font-family: 'Tapestry', cursive;
+  margin-bottom: 100px;
+  font-size: 9px;
+  background: white;
+}
+
+#INFO{
+  background: rgb(208, 89, 89);
+  margin: 20px;
+  padding: 5%;
+}
+
+#JOIN{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: large;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  margin: 20px;
+}
+
+.name{
+  padding-top: 30px;
+  margin: 20px;
+}
+
+.date{
+  margin-top: 0px; 
+}
+
+.residence{
+  margin: 20px;
+}
+
+.rel{
+  margin: 20px;
+}
+
+.job
+{
+  margin: 20px;
+}
+
+.how{
+  margin: 20px;
+}
+
+.why{
+  margin: 20px;
+}
+
+.bingahe{
+  margin: 20px;
+}
+
+.read{
+  margin: 20px;
+}
+
+.video{
+  margin: 20px;
+}
+
+.email{
+  margin: 20px;
+}
+
+.tel{
+  margin: 20px;
+}
+
+.last{
+  margin: 20px;
+}
+
+#CONTACTS{
+  font-family: 'Square Peg', cursive;
+  text-transform: uppercase;
+margin-top: 120px;
+}
+
+.bdy
+{
+  background: rgb(42, 70, 83);
+}
+
+
+ }
+@media only screen and (min-width:600px){
+  .wrapper{
+    display: flex;
+  }
+    .navbar{
+    position: fixed;
+    top: 0;
+    float: left;
+    width: 100%;
+    display: grid;
+    background: black;
+  }
+  .logo{
+    display: none;
+    height: 15%;
+    float: left;
+  position: fixed;
+  }
+  
+  #HOME{
+    background: white;
+   font-size: 11px;
+    font-family: 'Dancing Script', cursive;    margin-bottom: 100px;
+  }
+  
+  #INFO{
+    background: rgb(208, 89, 89);
+        margin: 20px;
+    padding: 5%;
+  }
+  
+  #JOIN{
+    font-family: 'Comfortaa', cursive;    text-transform: uppercase;
+    text-align: center;
+  font-weight: normal;
+    margin-top: 50px;
+    background: white;
+    margin: 60px;
+  }
+  
+  .name{
+    padding-top: 30px;
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .date{
+    margin-top: 0px; 
+    font-size: 20px;
+  }
+  
+  .residence{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .rel{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .job
+  {
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .how{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .why{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .bingahe{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .read{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .video{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .email{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .tel{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .last{
+    margin: 20px;
+  }
+  
+  #CONTACTS{
+    font-family: 'Square Peg', cursive;
+    text-transform: uppercase;
+  margin-top: 120px;
+  font-size: 30px;
+  }
+
+  .bdy
+  {
+    background: rgb(42, 70, 83);
+  }
+   }
+
+   @media only screen and (min-width:768px){
+    .wrapper{
+      display: flex;
+      height: 120vh;
+    
+    }
+      .navbar{
+      position: fixed;
+      top: 0;
+      float: left;
+      width: 100%;
+      display: grid;
+      background: black;
+    }
+    .logo{
+      display: none;
+      height: 15%;
+      float: left;
+    position: fixed;
+    }
+    
+    #HOME{
+      background: white;
+     font-size: 14px;
+      font-family: 'Dancing Script', cursive;    margin-bottom: 100px;
+    }
+    
+    #INFO{
+      background: rgb(208, 89, 89);
+          margin: 20px;
+      padding: 5%;
+    }
+    
+    #JOIN{
+      font-family: 'Comfortaa', cursive;    text-transform: uppercase;
+      text-align: center;
+    font-weight: normal;
+      margin-top: 50px;
+      background: white;
+      margin: 60px;
+    }
+    
+    .name{
+      padding-top: 30px;
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .date{
+      margin-top: 0px; 
+      font-size: 20px;
+    }
+    
+    .residence{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .rel{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .job
+    {
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .how{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .why{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .bingahe{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .read{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .video{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .email{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .tel{
+      margin: 20px;
+      font-size: 20px;
+    }
+    
+    .last{
+      margin: 20px;
+    }
+    
+    #CONTACTS{
+      font-family: 'Square Peg', cursive;
+      text-transform: uppercase;
+    margin-top: 120px;
+    font-size: 30px;
+    }
+  
+    .bdy
+    {
+      background: rgb(42, 70, 83);
+    }
+  
+   }
+ @media only screen and (min-width:992px){
+  .wrapper{
+    display: flex;
+    height: 140vh;
+  }
+    .navbar{
+    position: fixed;
+    top: 0;
+    float: left;
+    width: 100%;
+    display: grid;
+    background: black;
+  }
+  .logo{
+    display: none;
+    height: 15%;
+    float: left;
+  position: fixed;
+  }
+  
+  #HOME{
+    background: white;
+   font-size: 18px;
+    font-family: 'Dancing Script', cursive;    margin-bottom: 100px;
+  }
+  
+  #INFO{
+    background: rgb(208, 89, 89);
+    margin: 20px;
+    padding: 5%;
+  }
+  
+  #JOIN{
+    font-family: 'Comfortaa', cursive;    text-transform: uppercase;
+    text-align: center;
+  font-weight: normal;
+    margin-top: 50px;
+    background: white;
+    margin: 100px;
+  }
+  
+  .name{
+    padding-top: 30px;
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .date{
+    margin-top: 0px; 
+    font-size: 20px;
+  }
+  
+  .residence{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .rel{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .job
+  {
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .how{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .why{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .bingahe{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .read{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .video{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .email{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .tel{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .last{
+    margin: 20px;
+  }
+  
+  #CONTACTS{
+    font-family: 'Square Peg', cursive;
+    text-transform: uppercase;
+  margin-top: 120px;
+  font-size: 30px;
+  }
+
+  .bdy
+  {
+    background: rgb(42, 70, 83);
+  }
+ }
+ @media only screen and (min-width:1200px)
+ {
+  .wrapper{
+    display: flex;
+    height: 170vh;
+  }
+    .navbar{
+    position: fixed;
+    top: 0;
+    float: left;
+    width: 100%;
+    display: grid;
+    background: black;
+  }
+  .logo{
+    display: none;
+    height: 15%;
+    float: left;
+  position: fixed;
+  }
+  
+  #HOME{
+    background: white;
+   font-size: 22px;
+    font-family: 'Dancing Script', cursive;    margin-bottom: 100px;
+  }
+  
+  #INFO{
+    background: rgb(208, 89, 89);
+    margin: 20px;
+    padding: 5%;
+  }
+  
+  #JOIN{
+    font-family: 'Comfortaa', cursive;    text-transform: uppercase;
+    text-align: center;
+  font-weight: normal;
+    margin-top: 50px;
+    background: white;
+    margin: 160px;
+  }
+  
+  .name{
+    padding-top: 30px;
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .date{
+    margin-top: 0px; 
+    font-size: 20px;
+  }
+  
+  .residence{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .rel{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .job
+  {
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .how{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .why{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .bingahe{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .read{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .video{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .email{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .tel{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .last{
+    margin: 20px;
+  }
+  
+  #CONTACTS{
+    font-family: 'Square Peg', cursive;
+    text-transform: uppercase;
+  margin-top: 120px;
+  font-size: 30px;
+  }
+
+  .bdy
+  {
+    background: rgb(42, 70, 83);
+  }
+
+ }
+  
+
+ 
