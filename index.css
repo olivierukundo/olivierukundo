@@ -64,7 +64,7 @@ font-family: Roboto, sans-serif;
  }
 
  @media only screen and (max-width:600px){
-.bdy{
+.wrapper{
   background: url(new.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -164,7 +164,7 @@ position: fixed;
 }
 
 #CONTACTS{
-  font-family: 'Square Peg', cursive;
+  font-family: 'Macondo', cursive;
   text-transform: uppercase;
 margin-top: 120px;
 }
