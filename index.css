@@ -66,6 +66,9 @@ font-family: Roboto, sans-serif;
  @media only screen and (max-width:600px){
 .wrapper{
   display: flex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
   .navbar{
   position: fixed;
@@ -174,9 +177,8 @@ margin-top: 120px;
 
  }
 @media only screen and (min-width:600px){
-  .bdy{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  .wrapper{
+    display: flex;
     background-position: center;
   }
     .navbar{
