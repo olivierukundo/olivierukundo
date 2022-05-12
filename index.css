@@ -64,8 +64,8 @@ font-family: Roboto, sans-serif;
  }
 
  @media only screen and (max-width:600px){
-.wrapper{
-  display: flex;
+.bdy{
+  background: url(new.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
