@@ -62,13 +62,119 @@ font-family: Roboto, sans-serif;
   text-align: center;
   text-transform: uppercase;
  }
+ @media only screen and (max-width:326px)
+{
+  .wrapper{display: flex;
+ 
+  }
+    .navbar{
+    position: fixed;
+    top: 0;
+    float: left;
+    width: 100%;
+    display: grid;
+    background: black;
+  }
+  .logo{
+    display: none;
+    height: 15%;
+    float: left;
+  position: fixed;
+  }
+  
+  #HOME{
+    font-family: 'Tapestry', cursive;
+    margin-bottom: 100px;
+    font-size: 9px;
+    background: white;
+  }
+  
+  #INFO{
+    background: rgb(208, 89, 89);
+    margin: 20px;
+    padding: 5%;
+  }
+  
+  #JOIN{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    margin: 20px;
+  }
+  
+  .name{
+    padding-top: 30px;
+    margin: 20px;
+  }
+  
+  .date{
+    margin-top: 0px; 
+  }
+  
+  .residence{
+    margin: 20px;
+  }
+  
+  .rel{
+    margin: 20px;
+  }
+  
+  .job
+  {
+    margin: 20px;
+  }
+  
+  .how{
+    margin: 20px;
+  }
+  
+  .why{
+    margin: 20px;
+  }
+  
+  .bingahe{
+    margin: 20px;
+  }
+  
+  .read{
+    margin: 20px;
+  }
+  
+  .video{
+    margin: 20px;
+  }
+  
+  .email{
+    margin: 20px;
+  }
+  
+  .tel{
+    margin: 20px;
+  }
+  
+  .last{
+    margin: 20px;
+  }
+  
+  #CONTACTS{
+    font-family: 'Square Peg', cursive;
+    text-transform: uppercase;
+  margin-top: 120px;
+  }
+  
+  .bdy
+  {
+    background: rgb(42, 70, 83);
+  }
+}
 
  @media only screen and (max-width:600px){
 .wrapper{display: flex;
-  background: url(new.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+ background-position: center;
 }
   .navbar{
   position: fixed;
@@ -164,7 +270,7 @@ position: fixed;
 }
 
 #CONTACTS{
-  font-family: 'Macondo', cursive;
+  font-family: 'Square Peg', cursive;
   text-transform: uppercase;
 margin-top: 120px;
 }
@@ -173,9 +279,229 @@ margin-top: 120px;
 {
   background: rgb(42, 70, 83);
 }
-
-
  }
+
+ @media only screen and (min-width:326px)
+ {
+  .wrapper{display: flex;
+ background-position: center;
+  }
+    .navbar{
+    position: fixed;
+    top: 0;
+    float: left;
+    width: 100%;
+    display: grid;
+    background: black;
+  }
+  .logo{
+    display: none;
+    height: 15%;
+    float: left;
+  position: fixed;
+  }
+  
+  #HOME{
+    font-family: 'Tapestry', cursive;
+    margin-bottom: 100px;
+    font-size: 9px;
+    background: white;
+  }
+  
+  #INFO{
+    background: rgb(208, 89, 89);
+    margin: 20px;
+    padding: 5%;
+  }
+  
+  #JOIN{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    margin: 20px;
+  }
+  
+  .name{
+    padding-top: 30px;
+    margin: 20px;
+  }
+  
+  .date{
+    margin-top: 0px; 
+  }
+  
+  .residence{
+    margin: 20px;
+  }
+  
+  .rel{
+    margin: 20px;
+  }
+  
+  .job
+  {
+    margin: 20px;
+  }
+  
+  .how{
+    margin: 20px;
+  }
+  
+  .why{
+    margin: 20px;
+  }
+  
+  .bingahe{
+    margin: 20px;
+  }
+  
+  .read{
+    margin: 20px;
+  }
+  
+  .video{
+    margin: 20px;
+  }
+  
+  .email{
+    margin: 20px;
+  }
+  
+  .tel{
+    margin: 20px;
+  }
+  
+  .last{
+    margin: 20px;
+  }
+  
+  #CONTACTS{
+    font-family: 'Square Peg', cursive;
+    text-transform: uppercase;
+  margin-top: 120px;
+  }
+  
+  .bdy
+  {
+    background: rgb(42, 70, 83);
+  }
+}
+
+
+ @media only screen and (max-width:600px){
+.wrapper{display: flex;
+ 
+}
+  .navbar{
+  position: fixed;
+  top: 0;
+  float: left;
+  width: 100%;
+  display: grid;
+  background: black;
+}
+.logo{
+  display: none;
+  height: 15%;
+  float: left;
+position: fixed;
+}
+
+#HOME{
+  font-family: 'Tapestry', cursive;
+  margin-bottom: 100px;
+  font-size: 9px;
+  background: white;
+}
+
+#INFO{
+  background: rgb(208, 89, 89);
+  margin: 20px;
+  padding: 5%;
+}
+
+#JOIN{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: large;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  margin: 20px;
+}
+
+.name{
+  padding-top: 30px;
+  margin: 20px;
+}
+
+.date{
+  margin-top: 0px; 
+}
+
+.residence{
+  margin: 20px;
+}
+
+.rel{
+  margin: 20px;
+}
+
+.job
+{
+  margin: 20px;
+}
+
+.how{
+  margin: 20px;
+}
+
+.why{
+  margin: 20px;
+}
+
+.bingahe{
+  margin: 20px;
+}
+
+.read{
+  margin: 20px;
+}
+
+.video{
+  margin: 20px;
+}
+
+.email{
+  margin: 20px;
+}
+
+.tel{
+  margin: 20px;
+}
+
+.last{
+  margin: 20px;
+}
+
+#CONTACTS{
+  font-family: 'Square Peg', cursive;
+  text-transform: uppercase;
+margin-top: 120px;
+}
+
+.bdy
+{
+  background: rgb(42, 70, 83);
+}
+ }
+
+
 @media only screen and (min-width:600px){
   .wrapper{
     display: flex;
